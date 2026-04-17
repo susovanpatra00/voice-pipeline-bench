@@ -1,0 +1,38 @@
+asr:
+  models:
+    - name: "faster-whisper-tiny"
+      size: "tiny"
+      device: "cuda"
+      compute_type: "float16"
+
+    - name: "faster-whisper-small"
+      size: "small"
+      device: "cuda"
+      compute_type: "float16"
+
+    - name: "faster-whisper-medium"
+      size: "medium"
+      device: "cuda"
+      compute_type: "float16"
+    
+    - name: "deepdml/faster-whisper-large-v3-turbo-ct2"
+      size: "large"
+      device: "cuda"
+      compute_type: "float16"
+
+benchmark:
+  test_audios:
+    - path: "samples/test_short.wav"
+      label: "short_sentence"
+    - path: "samples/test_long.wav"
+      label: "long_sentence"
+    - path: "samples/test_noisy.wav"
+      label: "noisy"
+    - path: "samples/test_fast.wav"
+      label: "fast"
+    - path: "samples/test_numbers.wav"
+      label: "numbers"
+    
+  runs: 3
+  warmup_runs: 1
+  output_dir: "results/"

@@ -1,0 +1,48 @@
+[project]
+name = "voice-pipeline-bench"
+version = "0.1.0"
+description = "Benchmarking suite for real-time ASR → LLM → TTS voice pipelines"
+readme = "README.md"
+requires-python = ">=3.10,<3.14"   # ← add upper bound
+license = { text = "MIT" }
+
+dependencies = [
+    # ASR
+    "faster-whisper>=1.0.0",
+    "transformers>=4.40.0",
+    "torchaudio>=2.0.0",
+    # LLM
+    "torch>=2.2.0",
+    "accelerate>=0.27.0",
+    "bitsandbytes>=0.43.0",
+    # TTS  ← removed TTS (Coqui) — conflicts with pandas>=2.0
+    "edge-tts>=6.1.0",
+    "parler-tts>=0.1.0",
+    # Pipeline & Benchmarking
+    "sounddevice>=0.4.6",
+    "soundfile>=0.12.1",
+    "numpy>=1.26.0",
+    "psutil>=5.9.0",
+    "gputil>=1.4.0",
+    "pydantic>=2.0.0",
+    "rich>=13.0.0",
+    # Dashboard
+    "plotly>=5.20.0",
+    "pandas>=2.0.0",
+    "gradio>=4.0.0",
+    # Dev
+    "pytest>=8.0.0",
+    "python-dotenv>=1.0.0",
+    "pyyaml>=6.0.3",
+]
+
+
+[tool.uv]
+package = false
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["asr", "pipeline", "benchmark"]
