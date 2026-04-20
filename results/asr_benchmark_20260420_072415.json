@@ -1,164 +1,164 @@
 {
-  "timestamp": "20260417_082605",
+  "timestamp": "20260420_072415",
   "results": [
     {
       "model": "faster-whisper-tiny",
       "audio": "short_sentence",
-      "avg_latency_ms": 121.59,
-      "min_latency_ms": 114.47,
-      "max_latency_ms": 130.68,
+      "avg_latency_ms": 125.98,
+      "min_latency_ms": 121.82,
+      "max_latency_ms": 132.23,
       "transcript": "Hello, how are you doing today?"
     },
     {
       "model": "faster-whisper-tiny",
       "audio": "long_sentence",
-      "avg_latency_ms": 247.74,
-      "min_latency_ms": 241.25,
-      "max_latency_ms": 253.37,
+      "avg_latency_ms": 234.57,
+      "min_latency_ms": 232.79,
+      "max_latency_ms": 236.92,
       "transcript": "The Quarterly earnings report shows the significant increase in revenue across all major product lines, particularly in the Enterprise segment, which grew by 42% year over year, compared to last quarter."
     },
     {
       "model": "faster-whisper-tiny",
       "audio": "noisy",
-      "avg_latency_ms": 186.01,
-      "min_latency_ms": 183.57,
-      "max_latency_ms": 187.53,
+      "avg_latency_ms": 184.13,
+      "min_latency_ms": 181.11,
+      "max_latency_ms": 189.74,
       "transcript": "Can you please book a flight from Mumbai to Delhi for next Monday morning? Preferably before 9 a.m."
     },
     {
       "model": "faster-whisper-tiny",
       "audio": "fast",
-      "avg_latency_ms": 125.06,
-      "min_latency_ms": 123.11,
-      "max_latency_ms": 126.06,
+      "avg_latency_ms": 126.93,
+      "min_latency_ms": 125.57,
+      "max_latency_ms": 127.71,
       "transcript": "Can speak very fast like buys and still be understood."
     },
     {
       "model": "faster-whisper-tiny",
       "audio": "numbers",
-      "avg_latency_ms": 186.52,
-      "min_latency_ms": 184.14,
-      "max_latency_ms": 189.2,
+      "avg_latency_ms": 191.0,
+      "min_latency_ms": 188.66,
+      "max_latency_ms": 193.88,
       "transcript": "The invoice total is $3,847.52. Do buy the 15th of March 2025."
     },
     {
       "model": "faster-whisper-small",
       "audio": "short_sentence",
-      "avg_latency_ms": 167.01,
-      "min_latency_ms": 163.55,
-      "max_latency_ms": 169.25,
+      "avg_latency_ms": 158.75,
+      "min_latency_ms": 154.76,
+      "max_latency_ms": 161.17,
       "transcript": "Hello, how are you doing today?"
     },
     {
       "model": "faster-whisper-small",
       "audio": "long_sentence",
-      "avg_latency_ms": 336.14,
-      "min_latency_ms": 321.36,
-      "max_latency_ms": 354.02,
+      "avg_latency_ms": 330.34,
+      "min_latency_ms": 313.84,
+      "max_latency_ms": 344.11,
       "transcript": "The quarterly earnings report shows a significant increase in revenue across all major product lines, particularly in the enterprise segment which grew by 42% year over year compared to last quarter."
     },
     {
       "model": "faster-whisper-small",
       "audio": "noisy",
-      "avg_latency_ms": 261.79,
-      "min_latency_ms": 255.8,
-      "max_latency_ms": 264.98,
+      "avg_latency_ms": 261.43,
+      "min_latency_ms": 254.96,
+      "max_latency_ms": 268.55,
       "transcript": "Can you please book a flight from Mumbai to Delhi for next Monday morning, preferably before 9 a.m.?"
     },
     {
       "model": "faster-whisper-small",
       "audio": "fast",
-      "avg_latency_ms": 186.59,
-      "min_latency_ms": 185.67,
-      "max_latency_ms": 187.3,
+      "avg_latency_ms": 195.18,
+      "min_latency_ms": 189.61,
+      "max_latency_ms": 202.92,
       "transcript": "can speak very fast like Fyzen still be understood."
     },
     {
       "model": "faster-whisper-small",
       "audio": "numbers",
-      "avg_latency_ms": 224.33,
-      "min_latency_ms": 220.02,
-      "max_latency_ms": 227.27,
+      "avg_latency_ms": 222.99,
+      "min_latency_ms": 214.53,
+      "max_latency_ms": 234.92,
       "transcript": "The invoice total is $3,847.52 due by 15 March 2025."
     },
     {
       "model": "faster-whisper-medium",
       "audio": "short_sentence",
-      "avg_latency_ms": 235.21,
-      "min_latency_ms": 233.42,
-      "max_latency_ms": 236.36,
+      "avg_latency_ms": 231.06,
+      "min_latency_ms": 224.59,
+      "max_latency_ms": 241.19,
       "transcript": "Hello, how are you doing today?"
     },
     {
       "model": "faster-whisper-medium",
       "audio": "long_sentence",
-      "avg_latency_ms": 465.21,
-      "min_latency_ms": 454.26,
-      "max_latency_ms": 478.59,
+      "avg_latency_ms": 479.44,
+      "min_latency_ms": 472.19,
+      "max_latency_ms": 488.42,
       "transcript": "The quarterly earnings report shows a significant increase in revenue across all major product lines, particularly in the enterprise segment which grew by 42% year-over-year compared to last quarter."
     },
     {
       "model": "faster-whisper-medium",
       "audio": "noisy",
-      "avg_latency_ms": 362.52,
-      "min_latency_ms": 358.54,
-      "max_latency_ms": 368.74,
+      "avg_latency_ms": 358.87,
+      "min_latency_ms": 352.87,
+      "max_latency_ms": 366.75,
       "transcript": "Can you please book a flight from Mumbai to Delhi for next Monday morning, preferably before 9 am?"
     },
     {
       "model": "faster-whisper-medium",
       "audio": "fast",
-      "avg_latency_ms": 269.47,
-      "min_latency_ms": 265.62,
-      "max_latency_ms": 275.3,
+      "avg_latency_ms": 271.24,
+      "min_latency_ms": 270.14,
+      "max_latency_ms": 272.0,
       "transcript": "can speak very fast like Faisal and still be understood."
     },
     {
       "model": "faster-whisper-medium",
       "audio": "numbers",
-      "avg_latency_ms": 325.57,
-      "min_latency_ms": 322.32,
-      "max_latency_ms": 330.31,
+      "avg_latency_ms": 325.7,
+      "min_latency_ms": 322.97,
+      "max_latency_ms": 330.69,
       "transcript": "The invoice total is $3,847.52, due by 15 March, 2025."
     },
     {
       "model": "deepdml/faster-whisper-large-v3-turbo-ct2",
       "audio": "short_sentence",
-      "avg_latency_ms": 332.4,
-      "min_latency_ms": 326.17,
-      "max_latency_ms": 343.9,
+      "avg_latency_ms": 318.89,
+      "min_latency_ms": 304.68,
+      "max_latency_ms": 340.25,
       "transcript": "Hello, how are you doing today?"
     },
     {
       "model": "deepdml/faster-whisper-large-v3-turbo-ct2",
       "audio": "long_sentence",
-      "avg_latency_ms": 626.0,
-      "min_latency_ms": 600.34,
-      "max_latency_ms": 667.5,
+      "avg_latency_ms": 628.12,
+      "min_latency_ms": 607.41,
+      "max_latency_ms": 652.36,
       "transcript": "The quarterly earnings report shows a significant increase in revenue across all major product lines, particularly in the enterprise segment which grew by 42% year-over-year compared to last quarter."
     },
     {
       "model": "deepdml/faster-whisper-large-v3-turbo-ct2",
       "audio": "noisy",
-      "avg_latency_ms": 452.57,
-      "min_latency_ms": 443.15,
-      "max_latency_ms": 462.86,
+      "avg_latency_ms": 443.83,
+      "min_latency_ms": 439.74,
+      "max_latency_ms": 446.99,
       "transcript": "Can you please book a flight from Mumbai to Delhi for next Monday morning, preferably before 9am?"
     },
     {
       "model": "deepdml/faster-whisper-large-v3-turbo-ct2",
       "audio": "fast",
-      "avg_latency_ms": 348.27,
-      "min_latency_ms": 342.49,
-      "max_latency_ms": 358.64,
+      "avg_latency_ms": 360.47,
+      "min_latency_ms": 350.38,
+      "max_latency_ms": 368.05,
       "transcript": "Can't speak very fast like bison still be understood."
     },
     {
       "model": "deepdml/faster-whisper-large-v3-turbo-ct2",
       "audio": "numbers",
-      "avg_latency_ms": 428.25,
-      "min_latency_ms": 419.42,
-      "max_latency_ms": 433.95,
+      "avg_latency_ms": 439.77,
+      "min_latency_ms": 433.24,
+      "max_latency_ms": 447.15,
       "transcript": "The invoice total is $3,847.52, due by 15 March 2025."
     }
   ]

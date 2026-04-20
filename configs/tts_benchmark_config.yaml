@@ -1,0 +1,25 @@
+tts:
+  models:
+    - name: "edge-tts"
+      type: "edge"
+      voice: "en-US-AriaNeural"
+
+    - name: "kokoro"
+      type: "kokoro"
+      voice: "af_heart"
+      device: "cuda"
+
+benchmark:
+  runs: 3
+  warmup_runs: 1
+  output_dir: "results/"
+
+  texts:
+    - label: "short"
+      text: "Hello, how are you doing today?"
+
+    - label: "medium"
+      text: "Can you please book a flight from Mumbai to Delhi for next Monday morning, preferably before 9am?"
+
+    - label: "long"
+      text: "The quarterly earnings report shows a significant increase in revenue across all major product lines, particularly in the enterprise segment which grew by forty two percent year over year."

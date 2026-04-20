@@ -120,7 +120,7 @@ def _save_results(results: list[dict], output_dir: Path):
 
 def main():
     parser = argparse.ArgumentParser(description="ASR benchmark runner")
-    parser.add_argument("--config", default="configs/benchmark_config.yaml")
+    parser.add_argument("--config", default="configs/asr_benchmark_config.yaml")
     args = parser.parse_args()
 
     config = load_config(args.config)

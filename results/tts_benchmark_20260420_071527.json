@@ -1,0 +1,53 @@
+{
+  "timestamp": "20260420_071527",
+  "results": [
+    {
+      "model": "edge-tts",
+      "text_label": "short",
+      "avg_latency_ms": 727.64,
+      "avg_full_duration_ms": 998.62,
+      "avg_rtf": 0.359,
+      "avg_audio_length_sec": 2.78
+    },
+    {
+      "model": "edge-tts",
+      "text_label": "medium",
+      "avg_latency_ms": 671.3,
+      "avg_full_duration_ms": 1092.75,
+      "avg_rtf": 0.172,
+      "avg_audio_length_sec": 6.36
+    },
+    {
+      "model": "edge-tts",
+      "text_label": "long",
+      "avg_latency_ms": 732.51,
+      "avg_full_duration_ms": 2153.2,
+      "avg_rtf": 0.188,
+      "avg_audio_length_sec": 11.45
+    },
+    {
+      "model": "kokoro",
+      "text_label": "short",
+      "avg_latency_ms": 58.24,
+      "avg_full_duration_ms": 58.26,
+      "avg_rtf": 0.026,
+      "avg_audio_length_sec": 2.2
+    },
+    {
+      "model": "kokoro",
+      "text_label": "medium",
+      "avg_latency_ms": 66.09,
+      "avg_full_duration_ms": 66.11,
+      "avg_rtf": 0.011,
+      "avg_audio_length_sec": 6.08
+    },
+    {
+      "model": "kokoro",
+      "text_label": "long",
+      "avg_latency_ms": 84.37,
+      "avg_full_duration_ms": 84.4,
+      "avg_rtf": 0.007,
+      "avg_audio_length_sec": 12.18
+    }
+  ]
+}
