@@ -1,0 +1,36 @@
+llm:
+  max_new_tokens: 100
+
+  models:
+    - id: "Qwen/Qwen2.5-0.5B-Instruct"
+      gpu_memory_utilization: 0.2   # tiny model, doesn't need much
+
+    - id: "Qwen/Qwen2.5-1.5B-Instruct"
+      gpu_memory_utilization: 0.3
+
+    - id: "meta-llama/Llama-3.2-3B-Instruct"
+      gpu_memory_utilization: 0.3
+
+    - id: "meta-llama/Llama-3.1-8B-Instruct"
+      gpu_memory_utilization: 0.5
+
+benchmark:
+  runs: 3
+  warmup_runs: 1
+  output_dir: "results/"
+
+  prompts:
+    - label: "flight_booking"
+      text: "Can you please book a flight from Mumbai to Delhi for next Monday morning, preferably before 9am?"
+
+    - label: "weather_query"
+      text: "What's the weather like in Bangalore today?"
+
+    - label: "earnings_summary"
+      text: "Summarize the quarterly earnings report in two sentences."
+
+    - label: "reminder"
+      text: "Set a reminder for my 3pm meeting tomorrow."
+
+    - label: "technical_question"
+      text: "What are the key differences between RAG and fine-tuning?"
